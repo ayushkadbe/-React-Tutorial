@@ -1,11 +1,22 @@
 .App {
   text-align: center;
+  background-color: lawngreen;
+}
+.MyClass{
+  text-align: center;
+}
+.CenterMe{
+  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th, tr, td{
+  border: 2px solid forestgreen;
+  width: 200px;
+  height: 50px;
+  text-align: center;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+npm install --save-dev eslint-plugin-react
+Then, in your .eslintrc.json, under extends, include the following plugin:
+
+'extends': [
+    'plugin:react/recommended'
+]
+
+
 ## Available Scripts
 
 In the project directory, you can run:
